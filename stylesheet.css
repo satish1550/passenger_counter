@@ -1,0 +1,63 @@
+*{
+    color: red;
+}
+.box{
+    background-image: url("railway.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.box h1{
+    border: double;
+    border-radius: 10px;
+    border-color: aqua;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.box h1:hover{
+    color: rgb(0, 4, 255);
+}
+.box h2{
+    font-size: 50px;
+}
+.box h2:hover{
+    color: blanchedalmond;
+}
+.box p{
+    color: rgb(13, 241, 44);
+    font-size: 40px;
+    
+}
+
+.box button {
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    width: 150px;
+    margin-bottom: 5px;
+    border-radius: 25px;
+}
+
+#increment-btn {
+    background: rgb(18, 129, 233);
+}
+
+#save-btn {
+    background: rgb(47, 226, 47);
+}
+#reset-btn {
+    background: coral;
+}
+.box button:hover{
+    color: red;
+}
+.box p:hover{
+    color: rgb(0, 255, 55);
+}
+.box button:active{
+    color: black;
+}
